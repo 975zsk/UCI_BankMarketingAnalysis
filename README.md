@@ -25,9 +25,9 @@ Para empezar se chequea la distribución de las clases, en este caso el éxito o
   Se observa por ejemplo que los trabajadores 'blue-collar' no son propensos a adquirir el producto ofrecido mientras que los 'student' si comparado a la población general. Contando con esta información y la distribución de valores de cada variable se transforman estas. Por ejemplo para la edad se agrupa la población en jóvenes, adultos y senior (denotado por 1 , 2 o 3 dependiendo la edad).<img align="right" width="60%" src="https://i.imgur.com/tLqsffX.png">
 <br><br>
 - Algunos puntos son excluídos por ser valores erráticos que afectan negativamente la performance de las técnicas utilizadas posteriormente. A la derecha se observa un boxplot de la variable con el balance de cada persona, se puede observar que los valores superiores son extraños y no representativos de la población a la cual el análisis apunta.
-
-- Como resultado de procesar las variables se obtienen 18 variables, a continuación se plotean las correlaciones (Coeficiente de correlación de Spearman) de las variables discretas.<img align="center" width="90%" src="https://i.imgur.com/MIOzG6l.png">
 <br><br>
+- Como resultado de procesar las variables se obtienen 18 variables, a continuación se plotean las correlaciones (Coeficiente de correlación de Spearman) de las variables discretas.<img align="center" width="90%" src="https://i.imgur.com/MIOzG6l.png">
+
   Es interesante que se observe una ligera correlación entre los subgrupos que fueron creados para las categorías de educación y trabajo. No se observa ninguna dependencia fuerte entre las variables.
 
   Para las variables nominales se realiza la prueba chi cuadrado de independencia de las variables respecto de la clase. Se observa que la variable Éxito previo está fuertemente relacionada al éxito o no el la campaña actual.
