@@ -11,22 +11,22 @@ Este consiste en información sobre una campaña de marketing directo de una ins
 Para empezar se chequea la distribución de las clases, en este caso el éxito o no en la venta.
 
 
-1. Se puede observar que es un problema con clases sesgadas. Es mucho mayor en número de casos en los que las personas contactadas no compraron el producto comparado a los casos de éxito. Se muestra en el gráfico de barras a la derecha la distribución de clase en la población total.<img align="right" width="60%" src="https://i.imgur.com/GDMNTZX.png">
+- Se puede observar que es un problema con clases sesgadas. Es mucho mayor en número de casos en los que las personas contactadas no compraron el producto comparado a los casos de éxito. Se muestra en el gráfico de barras a la derecha la distribución de clase en la población total.<img align="right" width="60%" src="https://i.imgur.com/GDMNTZX.png">
 <br><br>
 
-1. Se cuenta con las siguientes información sobre cada cliente: Edad, Trabajo, Estado civil, Educacion, Si tiene default, Si tiene prestamo para la vivienda, Medio de contacto, Si tiene prestamo personal, Dia contactado, Duración del llamado, Nro contactos en esta campaña, Dias desde ultimo contacto, Nro contactos previos a esta campaña y Éxito previo en campaña anterior.
+- Se cuenta con las siguientes información sobre cada cliente: Edad, Trabajo, Estado civil, Educacion, Si tiene default, Si tiene prestamo para la vivienda, Medio de contacto, Si tiene prestamo personal, Dia contactado, Duración del llamado, Nro contactos en esta campaña, Dias desde ultimo contacto, Nro contactos previos a esta campaña y Éxito previo en campaña anterior.
 
   Se procede a investigar cada variable, se observa la distribución de los valores que toman estas y tambien se realiza tabulación cruzada con la variable objetivo.
 
   Por ejemplo esta es la distribución de edad de la población en un histograma.<img align="center" width="90%" src="https://i.imgur.com/mKIK3cm.png">
 
-1. De la tabulación cruzada se grafica el porcentaje de ejemplos de clase positiva (caso éxito) para cada posible valor de una variable categórica. Aquí se muestra un ejemplo para la variable trabajo, el color de las barras representa si el porcentaje de casos de éxito para ese valor de la variable, es menor (rojo) parecido (amarillo) o mayor (verde) al de la población general.<img align="center" width="90%" src="https://i.imgur.com/Ur0vFbK.png">
+- De la tabulación cruzada se grafica el porcentaje de ejemplos de clase positiva (caso éxito) para cada posible valor de una variable categórica. Aquí se muestra un ejemplo para la variable trabajo, el color de las barras representa si el porcentaje de casos de éxito para ese valor de la variable, es menor (rojo) parecido (amarillo) o mayor (verde) al de la población general.<img align="center" width="90%" src="https://i.imgur.com/Ur0vFbK.png">
 
   Se observa por ejemplo que los trabajadores 'blue-collar' no son propensos a adquirir el producto ofrecido mientras que los 'student' si comparado a la población general. Contando con esta información y la distribución de valores de cada variable se transforman estas. Por ejemplo para la edad se agrupa la población en jóvenes, adultos y senior (denotado por 1 , 2 o 3 dependiendo la edad).<img align="right" width="60%" src="https://i.imgur.com/tLqsffX.png">
 <br><br>
-1. Algunos puntos son excluídos por ser valores erráticos que afectan negativamente la performance de las técnicas utilizadas posteriormente. A la derecha se observa un boxplot de la variable con el balance de cada persona, se puede observar que los valores superiores son extraños y no representativos de la población a la cual el análisis apunta.
+- Algunos puntos son excluídos por ser valores erráticos que afectan negativamente la performance de las técnicas utilizadas posteriormente. A la derecha se observa un boxplot de la variable con el balance de cada persona, se puede observar que los valores superiores son extraños y no representativos de la población a la cual el análisis apunta.
 
-1. Como resultado de procesar las variables se obtienen 18 variables, a continuación se plotean las correlaciones (Coeficiente de correlación de Spearman) de las variables discretas.<img align="center" width="90%" src="https://i.imgur.com/MIOzG6l.png">
+- Como resultado de procesar las variables se obtienen 18 variables, a continuación se plotean las correlaciones (Coeficiente de correlación de Spearman) de las variables discretas.<img align="center" width="90%" src="https://i.imgur.com/MIOzG6l.png">
 <br><br>
   Es interesante que se observe una ligera correlación entre los subgrupos que fueron creados para las categorías de educación y trabajo. No se observa ninguna dependencia fuerte entre las variables.
 
