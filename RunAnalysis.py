@@ -48,7 +48,7 @@ df.drop('age',axis=1 ,inplace=True)
 
 
 # REMOVING BALANCE OUTLIERS - (Useful, plot boxplot before and after)
-#balance_boxplot(df)
+balance_boxplot(df)
 df = df[ (df['balance']-df['balance'].mean()).abs() < 15*df['balance'].std()]
 #balance_boxplot(df)
 
